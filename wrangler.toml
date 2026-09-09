@@ -1,0 +1,21 @@
+name = "ksavi"
+compatibility_date = "2024-09-09"
+pages_build_output_dir = ".vercel/output/static"
+
+[build]
+command = "pnpm run build"
+
+[env]
+NEXT_PUBLIC_APP_URL = "https://ksavi.pages.dev"
+NEXT_PUBLIC_APP_NAME = "ksavi"
+
+[vars]
+DATABASE_URL = ""
+NEXT_PUBLIC_SUPABASE_URL = ""
+NEXT_PUBLIC_SUPABASE_ANON_KEY = ""
+SUPABASE_SERVICE_ROLE_KEY = ""
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ksavi-db"
+database_id = ""
